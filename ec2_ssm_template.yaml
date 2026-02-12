@@ -3,8 +3,8 @@ Description: "Clase 3 - System Manager: 2 instancias Linux con SSM y S3 Full Acc
 
 Parameters:
   KeyName:
-    Type: AWS::EC2::KeyPair::KeyName
-    Description: "Nombre del KeyPair existente en us-east-1"
+    Type: AWS::EC2::KeyPair::marcos-usash-key
+    Description: "Nombre del KeyPair existente"
 
   VpcId:
     Type: AWS::EC2::VPC::Id
